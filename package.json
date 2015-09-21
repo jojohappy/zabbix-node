@@ -1,0 +1,26 @@
+{
+  "name": "zabbix-node",
+  "version": "0.1.0",
+  "description": "A simple client to fetching data from Zabbix Api",
+  "main": "./lib/zabbix",
+  "scripts": {
+    "test": "mocha -w -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jojohappy/zabbix-node.git"
+  },
+  "keywords": [
+    "zabbix",
+    "zabbixapi"
+  ],
+  "dependencies": {
+    "request": "^2.62.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "mocha": "^2.2.5"
+  },
+  "author": "Michael Dai",
+  "license": "MIT"
+}
